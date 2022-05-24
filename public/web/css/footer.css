@@ -1,0 +1,430 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------
+
+http://www.ybyin.com 
+2018-03-02
+
+-----------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+}
+
+
+#footer 
+{
+	border-top		:	1px solid #aaaaaa;
+	padding			:	20px 0 0px 0;
+}
+
+#footer .address
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	11px;
+	color				:	#646464;
+	line-height		:	20px; 
+	font-style		:	normal;
+	float				:	left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------
+
+footer_position    최하단
+
+-----------------------------------------------------------------*/
+
+#footer_position2
+{
+	position			:	fixed;
+	z-index			:	200;
+	width				:	100%;
+	bottom			:	0px;
+	height				:	70px;
+	display			:	none1;
+	
+}
+
+.footer_position2_bg
+{
+	position			:	absolute;
+	width				:100%;
+	/*background-color: rgba(0,0,0, 0.8);*/
+	background: url('../img/main/footer_position2_bg.png') ;
+	height				:	70px;
+	
+}
+
+.footer_position2_bg2
+{
+	position			:	absolute;
+	width				:100%;
+	height				:	70px;
+	bottom				: -70px;
+	
+}
+
+
+.footer_position_btn1
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px ; 
+	color				:	#fff;
+	font-weight			:	600;
+	text-align			:	center;
+	border				:	0px;
+	background			:	#7f7f7f;
+	line-height			: 40px;
+	height				:	40px;
+	border-radius		:	5px;
+	display				:block;
+	width				:220px;
+}
+
+
+
+/*-----------------------------------------------------------------
+
+footer_position    최하단
+
+-----------------------------------------------------------------*/
+
+#footer_position
+{
+	position			:	fixed;
+	z-index			:	200;
+	width				:	100%;
+	bottom			:	0px;
+	background		:	#222;
+	opacity			:	0.8;
+	display			:	none1;
+	height			:	60px;
+	
+}
+
+#footer_position .footer_position_tit
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#fff;
+	height				:	20px; 
+	width				:	395px;
+	font-weight		:	600;
+	position			:	absolute;
+	padding-left		:	20px;
+	padding-top		:	10px;
+	top				:	-30px;
+	background		:	url('../img/menu/footer_position_bg1.png') left top no-repeat;
+	display			:	none;
+}
+
+#footer_position ul
+{
+	padding-left		:	20px;
+}
+
+#footer_position ul a
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#fff;
+	line-height		:	38px; 
+	padding-right		: 	40px;
+	font-weight		:	600;
+}
+
+
+
+
+
+
+#totop
+{
+	position			:	fixed; 
+	width			: 80px;
+	bottom			:	10px; 
+	left				:	50%; 
+	margin-left		:	620px;
+	z-index			:	1000; 
+	display			:	none1;
+}
+
+
+.totop
+{
+	position			:	fixed; 
+	width				: 60px;
+	bottom			:	10px; 
+	left				:	50%; 
+	margin-left		:	620px;
+	z-index			:	1000; 
+	display			:	none1;
+}
+
+
+
+.to_tokk
+{
+	position			:	fixed; 
+	width				: 60px;
+	bottom			:	10px; 
+	left				:	50%; 
+	margin-left		:	620px;
+	z-index			:	1000; 
+	display			:	none1;
+}
+
+.to_hide
+{
+	display			:	none;
+	
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------
+풋터의 메뉴 중, 상단의 회색 박스 안의 영역 CSS입니다.
+-----------------------------------------------------------------*/
+.clearboth
+{
+	clear					: both;
+}
+
+#lDomemeFooter
+{
+	font-family	:	'Malgun Gothic' , '맑은고딕' , 'dotum' , 'sans-serif' ;
+	border-top		:	0px;
+	padding			:	0px 0 20px 0;
+}
+
+#lDomemeFooter div#footerMenu
+{
+	background-color		: #F0F0F0;
+}
+
+#lDomemeFooter div#footerMenu div.wrap
+{
+	width					: 1200px;
+	margin					: 0 auto;
+	padding					: 20px 0 40px 0;
+}
+
+/* 풋터의 메뉴바를 담당하고 있습니다. */
+#lDomemeFooter div#footerMenu div.wrap ul#footerMenuBar
+{
+	height					: 21px;
+	margin-bottom			: 35px;
+	padding-top				: 9px;
+	float					: left;
+}
+#lDomemeFooter div#footerMenu div.wrap ul#footerMenuBar li
+{
+	border-left				: 1px solid #AAA;
+	padding					: 0px 10px;
+	float					: left;
+	font-size				: 12px;
+	color					: #1B1B1B;
+}
+#lDomemeFooter div#footerMenu div.wrap ul#footerMenuBar li:first-child
+{
+	border					: 0;
+	padding-left			: 0;
+}
+#lDomemeFooter div#footerMenu div.wrap ul#footerMenuBar li a
+{
+	color					: #1B1B1B;
+	text-decoration			: none;
+	cursor					: pointer;
+}
+
+/* 풋터의 패밀리사이트 드롭박스를 담당하고 있습니다. */
+#lDomemeFooter div#footerMenu div.wrap div#familySite
+{
+	width					: 120px;
+	height					: 12px;
+	margin-right			: 12px;
+	padding					: 9px;
+	float					: right;
+	font-size				: 12px;
+	line-height				: 12px;
+	cursor					: pointer;
+}
+#lDomemeFooter div#footerMenu div.wrap div#familySite ul
+{
+	width					: 138px;
+}
+#lDomemeFooter div#footerMenu div.wrap div.dropdownSingle
+{
+	background-color		: #FFF;
+	background-image		: url('../img/top/btn_dropdownSingle.png');
+	background-repeat		: no-repeat;
+	background-position		: center right;
+	border					: 1px solid #DDD;
+	position				: relative;
+	top						: 0;
+	left					: 0;
+	z-index					: 100;
+}
+#lDomemeFooter div#footerMenu div.wrap div.dropdownSingle ul
+{
+	display					: none;
+	background-color		: #FFF;
+	border					: 1px solid #DDD;
+	position				: absolute;
+	top						: 30px;
+	left					: -1px;
+}
+#lDomemeFooter div#footerMenu div.wrap div.dropdownSingle ul li
+{
+	background-color		: #FFF;
+	height					: 28px;
+	border-bottom			: 1px solid #DDD;
+	position				: relative;
+	top						: 0;
+	left					: 0;
+	line-height				: 26px;
+	text-indent				: 8px;
+}
+#lDomemeFooter div#footerMenu div.wrap div.dropdownSingle ul li:hover
+{
+	background-color		: #DDD;
+}
+#lDomemeFooter div#footerMenu div.wrap div.dropdownSingle ul li a
+{
+	display					: block;
+	width					: 100%;
+	height					: 100%;
+	color					: #1B1B1B;
+	text-decoration			: none;
+	position				: absolute;
+	top						: 0;
+	bottom					: 0;
+	left					: 0;
+}
+
+/* 풋터에서 BI 및 기업정보 부분을 담당하고 있습니다. */
+#lDomemeFooter div#footerMenu div.wrap div#footerInfo
+{
+	width					: 1200px;
+	overflow				: hidden;
+}
+#lDomemeFooter div#footerMenu div.wrap div#footerInfo a
+{
+	color					: #1B1B1B;
+	text-decoration			: none;
+}
+#lDomemeFooter div#footerMenu div.wrap div#footerInfo a:hover
+{
+	text-decoration			: underline;
+}
+#lDomemeFooter div#footerMenu div.wrap div#footerInfo div#domeggookCallCenter
+{
+	width					: 304px;
+	float					: left;
+	font-size				: 12px;
+	color					: #1B1B1B;
+	line-height				: 19px;
+}
+#lDomemeFooter div#footerMenu div.wrap div#footerInfo div#domeggookCallCenter a img
+{
+	vertical-align			: -2px;
+	cursor					: pointer;
+}
+#lDomemeFooter div#footerMenu div.wrap div#footerInfo div#domeggookInfo
+{
+	width					: 372px;
+	float					: left;
+	font-size				: 12px;
+	color					: #1B1B1B;
+	line-height				: 19px;
+}
+#lDomemeFooter div#footerMenu div.wrap div#footerInfo div#domeggookInfo a img
+{
+	vertical-align			: -2px;
+	cursor					: pointer;
+}
+
+
+
+/*-----------------------------------------------------------------
+소비자피해보상보험 및 관련 정보 영역 CSS입니다.
+-----------------------------------------------------------------*/
+#lDomemeFooter div#footerNotice
+{
+	border-top				: 1px solid #AAA;
+	border-bottom			: 1px solid #AAA;
+}
+#lDomemeFooter div#footerNotice div.wrap
+{
+	width					: 1200px;
+	margin					: 0 auto;
+	padding					: 20px 0;
+	overflow				: hidden;
+	font-size				: 11px;
+	color					: #646464;
+}
+#lDomemeFooter div#footerNotice div.wrap div.cert
+{
+	width					: 590px;
+	height					: 55px;
+	float					: left;
+}
+#lDomemeFooter div#footerNotice div.wrap div.cert div
+{
+	float					: left;
+}
+#lDomemeFooter div#footerNotice div.wrap div.cert div a
+{
+	color					: #AAA;
+	/*line-height				: 2em;*/
+	text-decoration			: none;
+	/*letter-spacing			: -1px;*/
+}
+#lDomemeFooter div#footerNotice div.wrap div.cert div.explainDiv
+{
+	margin-left				: 12px;
+	font-size				: 11px;
+	line-height			:	18px;
+}
+
+
+/*-----------------------------------------------------------------
+영역 최하단의 copyright고지 영역 CSS입니다.
+-----------------------------------------------------------------*/
+#lDomemeFooter div#copyright
+{
+	
+	padding-top				: 20px;
+	font-size				: 11px;
+	color					: #646464;
+	text-align				: left;
+	overflow				: hidden;
+	clear					: both;
+	line-height			:20px;
+	background		: #fff ;
+}
+
+
+
+

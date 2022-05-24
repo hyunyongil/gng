@@ -1,0 +1,1747 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------
+
+http://www.ybyin.com 
+2018-03-02
+
+-----------------------------------------------------------------*/
+
+.input1
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#424242 ;
+	
+	height				:	26px ;
+	border				:	1px solid #c4c4c4;
+	padding-left		:	10px;
+}
+
+.select1 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#424242 ;
+	
+	height				:	28px ;
+	border				:	1px solid #c4c4c4;
+}
+
+.select2 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px ; 
+	color				:	#000000 ;
+	border-radius		:	4px;	
+	height				:	40px ;
+	border				:	1px solid #fff;
+	width				:	170px;
+	padding-left		:	10px;
+}
+
+
+.textarea1 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px ; 
+	color				:	#424242 ;
+	line-height		:	26px;
+	border				:	1px solid #dddddd;
+	padding-left		:	10px;
+}
+
+
+
+
+.location_select 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#424242 ;
+	width				:	200px;
+	height				:	30px ;
+	border				:	1px solid #c4c4c4;
+	
+}
+
+.button1 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px ; 
+	color				:	#fff;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	none;
+	background		:	#483428;
+	line-height		:	28px;
+}
+
+
+
+.button_2
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	14px ; 
+	color			:	#828282 ;
+	line-height		:	30px;
+	width			: 150px;
+	background		:	#fff;
+	border			:	1px solid #dddddd;
+}
+.button_2_on
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	14px ; 
+	color			:	#fff ;
+	line-height		:	30px;
+	width			: 150px;
+	background		:	#fe9581;
+	border			:	0px;
+}
+
+.button_3
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	12px ; 
+	color			:	#535353 ;
+	line-height		:	24px;
+	background		:	#fff;
+	padding			: 0 15px;
+	border			: 1px solid #535353
+}
+
+.button_4
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	18px ; 
+	color			:	#fff ;
+	line-height		:	10px;
+	height			:	50px;
+	background		:	#5b6064;
+	display			: inline-block;
+	padding			: 0 50px;
+	border			: 0px
+}
+
+.button_5
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	14px ; 
+	color			:	#000 ;
+	line-height		:	30px;
+	width			: 150px;
+	background		:	#fff;
+	border			:	1px solid #9d9d9d;
+}
+
+.button_6
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	12px ; 
+	color			:	#fff ;
+	line-height			: 24px;
+	height				:	30px;
+	width			: 150px;
+	background		:	#aaaaaa;
+	display			: inline-block;
+	border			: 0px
+}
+
+.button_7
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	15px ; 
+	color			:	#fff ;
+	font-weight: 600;
+	line-height			: 43px;
+	height				:	43px;
+	width			: 220px;
+	background		:	#17658e;
+	display			: inline-block;
+	border			: 0px
+}
+
+
+
+.button_8
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	30px ; 
+	color			:	#fff ;
+	height			:	80px;
+	background		:	#ff9728;
+	display			: inline-block;
+	width			: 400px;
+	border			: 0px
+}
+
+
+.button_9
+{
+	display			: inline-block;
+	border			: 1px solid #dfdfdf;
+	border-radius	: 0px;
+	padding			: 4px 5px 2px 5px;
+}
+
+
+.button_10
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	14px ; 
+	color			:	#fff ;
+	line-height		:	30px;
+	width			: 150px;
+	background		:	#ff9314;
+	border			:	1px solid #fff;
+}
+
+.button_11
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	14px ; 
+	color			:	#2f2f3b ;
+	line-height		:	30px;
+	width			: 150px;
+	background		:	#fff;
+	border			:	1px solid #fff;
+}
+
+.button_11:hover
+{
+	color			:	#1e4095 ;
+	font-weight:600;
+}
+
+.button_12
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	14px ; 
+	color			:	#666666 ;
+	line-height		:	30px;
+	width			:	150px;
+	height			:	43px;
+	background		:	#fff;
+	border			:	1px solid #dfdfdf;
+}
+
+/*-----------------------------------------------------------------
+
+이용동의
+
+-----------------------------------------------------------------*/
+
+
+
+.join_box1
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px ; 
+	color				:	#424242;
+	border				:	1px solid #dddddd;
+	padding			:	20px;
+	height				:	300px;
+	overflow-y		:	scroll;
+	line-height		:	28px;
+
+}
+.join_box1 strong 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	16px ; 
+	color				:	#000;
+	display			:	block;
+}
+
+.join_box1 p
+{
+	padding			:	10px 0;
+	display			:	block;
+}
+
+/*-----------------------------------------------------------------
+
+page style
+
+-----------------------------------------------------------------*/
+
+.page_number
+{
+	clear				:	both;
+	padding-top		:	60px;
+	text-align			:	center;
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px ; 
+	color				:	#000;
+}
+
+.page_number a
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px ; 
+	color				:	#000;
+	text-align			:	center;
+	text-decoration	:	none;
+	border				:	1px solid #e6e6e6;
+	padding			:	9px 12px;
+}
+
+.page_number .on
+{
+	color				:	#fff;
+	font-weight		:	bold;
+	border				:	1px solid #5c6066;
+	background		:	#5c6066;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------
+
+table  스타트
+
+-----------------------------------------------------------------*/
+
+
+.table_01
+{
+	border-top		:	2px solid #2c3f53;
+}
+
+.table_01 thead
+{
+	border-bottom	:	1px solid #2c3f53;
+}
+
+.table_01 thead th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#2c3f53;
+	line-height		:	25px;
+	padding			:	13px 0;
+	font-weight		:	600;
+}
+
+
+
+.table_01 tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#2c3f53;
+	text-align			:	left;
+	background		:	#f9f9f9;
+	border-bottom	:	1px solid #e0e0e0;
+	line-height		:	18px;
+	font-weight		:	600;
+	padding			:	15px 0 15px 30px;
+	
+}
+
+
+
+.table_01 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px;
+	color				:	#636363;
+	border-bottom	:	1px solid #e0e0e0;
+	line-height		:	18px;
+	padding			:	12px 0;
+	
+	
+}
+
+
+
+
+.table_02
+{
+}
+
+.table_02 thead
+{
+	
+}
+
+.table_02 thead th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#fff;
+	line-height		:	22px;
+	padding			:	10px 0;
+	background		:	#5c6066;
+}
+
+
+
+.table_02 tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#2c3f53;
+	border				:	1px solid #e0e0e0;
+	line-height		:	24px;
+	padding			:	10px 0;
+	
+}
+
+
+
+.table_02 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px;
+	color				:	#636363;
+	border				:	1px solid #e0e0e0;
+	line-height		:	24px;
+	padding			:	10px 0;
+	
+}
+
+
+
+
+
+
+
+
+
+.table_02_2
+{
+}
+
+.table_02_2 thead
+{
+	
+}
+
+.table_02_2 thead th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#fff;
+	line-height		:	30px;
+	padding			:	10px 0;
+	background		:	#5c6066;
+	border				:	1px solid #fff;
+}
+
+
+
+
+.table_02_2 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px;
+	color				:	#424141;
+	border				:	1px solid #fff;
+	line-height		:	30px;
+	background		:	#f4f4f4;
+	padding			:	10px 0;
+	
+}
+
+
+
+
+
+
+
+.table_03
+{
+}
+
+.table_03 thead
+{
+	
+}
+
+.table_03 thead th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#fff;
+	line-height		:	22px;
+	padding			:	10px 0;
+	background		:	#5c6066;
+}
+
+
+
+.table_03 tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#2c3f53;
+	line-height		:	24px;
+	font-weight		:	600;
+	padding			:	10px 0;
+	
+}
+
+
+
+.table_03 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px;
+	color				:	#636363;
+	line-height		:	24px;
+	padding			:	10px 0;
+	
+}
+
+
+
+
+
+.table_04
+{
+	border			:1px solid #dddddd;
+}
+
+
+.table_04 tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px;
+	color				:	#1b1b1b;
+	line-height		:	26px;
+	font-weight		:	600;
+	text-align: left;
+	padding			:	10px 0 10px 10px;
+	border			:1px solid #dddddd;
+	
+}
+
+
+
+.table_04 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px;
+	color				:	#636363;
+	line-height		:	26px;
+	padding			:	10px 0 10px 10px;
+	border			:1px solid #dddddd;
+	
+}
+
+.n_table_04
+{
+	border			:1px solid #aaaaaa;
+}
+
+
+.n_table_04 tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	16px;
+	color				:	#222164;
+	line-height		:	26px;
+	font-weight		:	600;
+	text-align: left;
+	padding			:	20px 0 20px 20px;
+	border			:1px solid #dfdfdf;
+	
+}
+
+
+
+.n_table_04 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#454545;
+	line-height		:	26px;
+	padding			:	10px 0 10px 10px;
+	border			:1px solid #dfdfdf;
+	
+}
+
+/*
+.n_table_04 tbody td a:hover
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#fff;
+	line-height		:	26px;
+	background		:	#ff4245;
+	border-radius	:	70px;
+	padding			:	10px 20px;
+	
+}
+
+*/
+.n_table_04 tbody td .cur
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#fff;
+	line-height		:	26px;
+	background		:	#ff4245;
+	border-radius	:	70px;
+	padding			:	10px 20px;
+	
+}
+
+
+.table_05
+{
+	border-top		:	2px solid #646464;
+	border-bottom	:	2px solid #646464;
+}
+
+.table_05 thead
+{
+	border-bottom	:	1px solid #2c3f53;
+}
+
+.table_05 thead th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#2c3f53;
+	line-height		:	25px;
+	padding			:	13px 0;
+	font-weight		:	600;
+}
+
+
+
+.table_05 tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px;
+	color				:	#333333;
+	text-align			:	left;
+	background		:	#f6f6f6;
+	border-bottom	:	1px solid #dddddd;
+	line-height		:	18px;
+	font-weight		:	600;
+	padding			:	15px 0 15px 30px;
+	
+}
+
+
+
+.table_05 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px;
+	color				:	#666666;
+	border-bottom	:	1px solid #dddddd;
+	line-height		:	18px;
+	padding			:	15px 0;
+	
+	
+}
+
+
+
+
+
+
+
+
+.table_06
+{
+	border-top		:	1px solid #646464;
+}
+
+
+.table_06 tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#000000;
+	background		:	#f8f8f8;
+	border-bottom	:	1px solid #dddddd;
+	line-height		:	18px;
+	font-weight		:	600;
+	padding			:	15px 0 15px 0px;
+	
+}
+
+
+
+.table_06 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#666666;
+	border-bottom	:	1px solid #dddddd;
+	line-height		:	18px;
+	padding			:	15px 0;
+	
+	
+}
+
+
+
+.table_06_line1
+{
+	border-left	:	1px solid #dddddd;
+	
+	
+}
+
+
+
+
+
+
+
+.table_07
+{
+}
+
+
+
+
+.table_07 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px;
+	color				:	#636363;
+	border				:	1px solid #e0e0e0;
+	text-align		: center;
+	width: 20%;
+	
+}
+
+
+
+
+
+
+
+.table_08
+{
+	border-top		:	1px solid #aaaaaa;
+	border-bottom	:	1px solid #aaaaaa;
+}
+
+
+.table_08 tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px;
+	color				:	#646464;
+	background		:	#f0f0f0;
+	border-bottom	:	1px solid #dddddd;
+	line-height		:	18px;
+	font-weight		:	normal;
+	text-align		: left;
+	padding			:	10px 0px 10px 15px;
+	
+}
+
+
+
+.table_08 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px;
+	color				:	#646464;
+	border-bottom	:	1px solid #dddddd;
+	line-height		:	18px;
+	padding			:	10px 0px 10px 20px;
+	
+	
+}
+
+
+
+
+.table_09 tbody th
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	18px;
+	color				:	#fff;
+	font-weight			: 600;
+	height				: 55px;
+	background			:	#5260d0;
+}
+
+.table_09 tbody td
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	17px;
+	color				:	#111111;
+	text-align			: center;
+	line-height			: 18px;
+	padding				:	7px 0px;
+	height				: 50px;
+	border-bottom		: 1px solid #dfdfdf;
+	background			:	#fff;
+}
+
+
+.table_10 tbody th
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	18px;
+	color				:	#111111;
+	font-weight			: normal;
+	text-align			: left;
+	padding				: 10px 0 10px 17px;
+	background			:	#ededed;
+	border				: 1px solid #dfdfdf;
+}
+
+
+
+.table_10 tbody td
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	17px;
+	color				:	#111111;
+	text-align			: left;
+	line-height			: 25px;
+	height				: 48px;
+	padding-left		: 10px;
+	background			:	#fff;
+	border				: 1px solid #dfdfdf;
+}
+
+.table_11
+{
+	background			:#fafafa;
+}
+
+
+
+
+.table_11 tbody td
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#636363;
+	border				:	0px;
+	text-align			: left;
+	line-height			: 30px;
+	
+}
+
+.table_11 tbody td strong
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px!important;
+	color				:	#636363;
+	border				:	0px;
+	font-weight			: 600;
+	
+}
+
+
+
+.table_12
+{
+	border-top		:	1px solid #646464;
+}
+
+
+.table_12 tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#000000;
+	background		:	#f8f8f8;
+	border-bottom	:	1px solid #dddddd;
+	line-height		:	18px;
+	font-weight		:	600;
+	text-align		: left;
+	padding			:	15px 0 15px 20px;
+	
+}
+
+
+
+.table_12 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#666666;
+	border-bottom	:	1px solid #dddddd;
+	line-height		:	18px;
+	padding			:	15px 0 15px 15px;
+	
+	
+}
+
+.table_13
+{
+	border-bottom		:	1px solid #454545;
+}
+
+
+.table_13 tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#fff;
+	background		:	#454545;
+	line-height		:	18px;
+	font-weight		:	600;
+	padding			:	15px 0;
+	
+}
+
+
+
+.table_13 tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#454545;
+	border-bottom	:	1px solid #dfdfdf;
+	line-height		:	20px;
+	padding			:	15px 0 ;
+	
+	
+}
+
+
+
+
+
+
+.hai_table_1
+{
+	border				:	2px solid #5a6682;
+}
+
+
+
+.hai_table_1 tbody td
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#424242;
+	border				:	1px solid #5a6682;
+	line-height			:	50px;
+	text-align			: center;
+	
+}
+
+.hai_table_1 a
+{
+	display				: block;
+	background			: #fff;
+}
+
+.hai_table_1 a.on
+{
+	font-weight			: 600;
+	color				: #fff;
+	background			: #5a6682;
+}
+
+
+
+
+.hai_table_2
+{
+	border				:	1px solid #aaaaaa;
+}
+
+
+
+.hai_table_2 tbody th
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#fff;
+	background			: #646464;
+	border				:	1px solid #aaaaaa;
+	line-height			:	45px;
+	text-align			: center;
+	
+}
+
+
+.hai_table_2 tbody td
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px;
+	color				:	#646464;
+	border				:	1px solid #aaaaaa;
+	line-height			:	20px;
+	padding-top			:  10px;
+	padding-bottom		: 10px;
+	text-align			: center;
+	
+}
+
+
+.hai_table_2 tbody tr:nth-child(2n+1){
+	background			: #f6f6f6;
+}
+
+
+
+
+.hai_table_3
+{
+}
+
+
+
+.hai_table_3 tbody td
+{
+	font-family			:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#282828;
+	line-height			:	58px;
+	text-align			: center;
+	
+}
+
+.hai_table_3 a
+{
+	display				: block;
+	background			: #f0f0f0;
+	margin				:7px 0 ;
+}
+
+.hai_table_3 a.on
+{
+	font-weight			: 600;
+	color				: #fff;
+	background		:	url('../img/haiwai/ic1.png')#1f3f99 right bottom no-repeat;
+	
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------
+
+table  end
+
+-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+.cust_tab
+{
+	border-left		: 1px solid #c5c5c6;
+}
+
+.cust_tab a
+{
+	position			:	relative;
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px ; 
+	color				:	#282829 ;
+	font-weight		:	600;
+	text-align			:	center;
+	line-height		:	48px ;
+	height				:	48px ;
+	width				:	19.9%;
+	display			:	inline-block; 
+	border-top		:	1px solid #c5c5c6;
+	border-bottom	:	1px solid #c5c5c6;
+	border-right		:	1px solid #c5c5c6;
+	float				:	left;
+}
+
+.cust_tab .on 
+{
+	color				:	#fff ;
+	background		:	#f26821;
+	border-top		:	1px solid #f26821;
+	border-bottom	:	1px solid #f26821;
+	border-right		:	1px solid #f26821;
+}
+
+.cust_tab .on font
+{
+	color				:	#fff ;
+}
+
+
+.cust_tab .on span
+{
+	position			:	absolute;
+	left				:	50%;
+	bottom			:	-9px;
+	margin-left		:	-8px;
+	display			:	inline-block; 
+	width				:	16px;
+	height				:	8px;
+	background		:	url('../img/s_cust/bu1.jpg') left top no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+.s_cust1_1
+{
+	border-top		:	2px solid #2c3f53;
+	border-bottom	:	1px solid #2c3f53;
+	background		:	#f1f1f1;
+	padding			:	10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------
+
+rili  달력 스타일
+
+-----------------------------------------------------------------*/
+.rili 
+{
+}
+
+.rili thead th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	16px;
+	color				:	#216fe3;
+	line-height		:	40px;
+}
+.rili tbody td 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px;
+	color				:	#3a3a3a;
+	text-align			:	center;
+	height				:	39px;
+
+}
+.rili .curr 
+{
+	border-radius	:	20px;
+	display			:	inline-block;
+	line-height		:	25px;
+	width				:	24px;
+	color				:	#fff;
+	background		:	#7aabf1;
+}
+
+
+
+.s_rili 
+{
+	border: 1px solid #dddddd;
+	border-top: 0px;
+}
+
+.s_rili thead th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#293b56;
+	line-height		:	40px;
+}
+.s_rili tbody td 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px;
+	color				:	#3a3a3a;
+	text-align			:	center;
+	height				:	52px;
+}
+.s_rili tbody td.clr1
+{
+	color				:	#216fe3;
+}
+.s_rili tbody td.clr2
+{
+	color				:	#ff3b21;
+}
+
+.s_rili tbody td .radius1
+{
+	border-radius	:	20px;
+	display			:	inline-block;
+	line-height		:	25px;
+	width				:	24px;
+	color				:	#fff;
+	background		:	#7aabf1;
+}
+
+
+.s_rili tbody td .radius2
+{
+	border-radius	:	20px;
+	display			:	inline-block;
+	line-height		:	25px;
+	width				:	24px;
+	color				:	#3a3a3a;
+	background		:	#e3e3e3;
+}
+
+
+.s_rili_tbl
+{
+	position			:	absolute;
+	z-index			:	10;
+	background		:	#2a323a; 
+	right				:	10px;
+	top				:	10px;
+	width				:	368px;
+	height				:	418px;
+}
+
+.s_rili_tbl_1
+{
+	background		:	#fcfdfe;
+	padding			:	10px;
+}
+
+.s_rili_tbl_2
+{
+	height				:	153px;
+	padding			:	10px 20px 20px 20px;
+
+}
+
+.s_rili_tbl_2 strong
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#fff;
+	display			:	block;
+	text-align			:	left;
+
+}
+.s_rili_tbl_2 span
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px ; 
+	color				:	#fff;
+	display			:	block;
+	text-align			:	left;
+	line-height		:	20px;
+
+}
+.s_rili_tbl_2 span font
+{
+	color				:	#4e627b;
+
+}
+
+.tbl_2_txt1
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#13171b;
+	text-align			:	center;
+	line-height		:	20px;
+	background		:	#7baaf0;
+	font-weight		:	600;
+	padding			:	5px 10px;
+	
+
+}
+
+
+
+
+
+
+
+
+.s_rili_2
+{
+}
+
+.s_rili_2 thead th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px;
+	color				:	#fff;
+	line-height		:	40px;
+	background		:	#2c3f53;
+	border				:	0px;
+}
+.s_rili_2 tbody td 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px;
+	color				:	#3a3a3a;
+	vertical-align		:	top;
+	text-align			:	left;
+	height				:	130px;
+	padding			:	14px;
+	border				:	1px solid #e0e0e0;
+
+}
+.s_rili_2 tbody td p
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px;
+	color				:	#636363;
+	display			:	block;
+	line-height		:	18px;
+
+}
+.s_rili_2 .clr1
+{
+	color				:	#4f96ff;
+}
+.s_rili_2 .clr2
+{
+	color				:	#ff3b21;
+}
+
+
+
+
+.story_bord2 
+{
+	background		:	#f6f6f6;
+	text-align			:	center;
+	padding			:	25px 0px;
+	border				:	1px solid #dddddd;
+ }
+
+ 
+
+.rili_s { width:211px;border:1px solid #bbbbbb;color:#363636;font-size:12px; font-family:dotum,arial;}
+.rili_s th {border:0px;  background:#3b3b3b; color:#e0e0e0;line-height:30px; height:34px;}
+.rili_s thead td {border:0px;text-align:center; padding:0px;}
+.rili_s tbody td {border:0px;text-align:center;vertical-align:middle ; color:#666666; padding:0px; border:1px solid #bbbbbb; height:29px;background:url('img/rili/rili4.jpg') no-repeat}
+.rili_s .curr {text-align:center; color:#ffffff; background:url('../img/rili/rili5.jpg') no-repeat}
+
+
+.rili_s > tbody > tr > td:nth-child(1)  {width:14%;}
+
+/*-----------------------------------------------------------------
+
+rili  달력 스타일 end
+
+-----------------------------------------------------------------*/
+
+.s_btn1 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px ; 
+	color				:	#13171b;
+	text-align			:	center;
+	border				:	0px;
+	line-height		:	22px;
+	background		:	#ffcc66;
+	display			:	inline-block; 
+	border-radius	:	3px;
+}
+
+
+
+
+
+.s_button1 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px ; 
+	color				:	#13171b;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	none;
+	background		:	#fafcfd;
+	padding			:	0px 10px;
+	display			:	inline-block; 
+	border-radius	:	5px;
+	line-height		:	20px;
+}
+
+
+.s_button2
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px ; 
+	color				:	#fff;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	1px solid #f86300;
+	background		:	#f86300;
+	padding			:	7px 25px;
+	display			:	inline-block; 
+	border-radius	:	5px;
+}
+
+
+.s_button3
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#fff;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	1px solid #7baaf0;
+	background		:	#7baaf0;
+	width				:	100px;
+	height				:	58px;
+	display			:	inline-block; 
+	border-radius	:	5px;
+}
+
+
+.s_button4
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#fff;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	0px;
+	background		:	#5c6066;
+	width				:	142px;
+	height				:	40px;
+	display			:	inline-block; 
+	border-radius	:	5px;
+}
+
+
+.s_button5
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px ; 
+	color				:	#276bc6;
+	font-weight		:	600;
+	border				:	1px solid #3373c9;
+	background		:	#fff;
+	width				:	140px;
+	height				:	40px;
+	display			:	inline-block; 
+	border-radius	:	5px;
+}
+
+
+.s_button6
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	15px ; 
+	color				:	#fff;
+	font-weight		:	600;
+	border				:	1px solid #f86300;
+	background		:	#f86300;
+	width				:	100%;
+	height				:	50px;
+	display			:	inline-block; 
+	border-radius	:	5px;
+}
+
+
+.s_button7
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px ; 
+	color				:	#fff;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	0px;
+	background		:	#5c6066;
+	width				:	90px;
+	height				:	70px;
+	display			:	inline-block; 
+	border-radius	:	5px;
+}
+
+
+
+.s_button8
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#fff;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	1px solid #25426c;
+	background		:	#25426c;
+	padding			:	4px 10px;
+	display			:	inline-block; 
+	border-radius	:	5px;
+}
+
+.s_button9
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px ; 
+	color				:	#fff;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	0px;
+	background		:	#5c6066;
+	width				:	80px;
+	height				:	40px;
+	display			:	inline-block; 
+}
+
+
+.s_button10 
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#13171b;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	none;
+	background		:	#7baaf0;
+	padding			:	0px 10px;
+	line-height		:	28px;
+	display			:	inline-block; 
+	border-radius	:	5px;
+}
+
+
+.s_button1_x
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px ; 
+	color				:	#fff;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	0px;
+	background		:	#7b7b7b;
+	width				:	44px;
+	height				:	24px;
+	display			:	inline-block; 
+}
+
+.s_button2_x_on
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#fff;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	0px;
+	background		:	#7b7b7b;
+	width				:	90px;
+	height				:	34px;
+	display			:	inline-block; 
+}
+
+.s_button2_x_off
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#292929;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	1px solid #d2d2d2;
+	background		:	#fff;
+	width				:	90px;
+	height				:	34px;
+	display			:	inline-block; 
+}
+
+
+
+
+
+.s_class_button1
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px ; 
+	color				:	#4aa54e;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	1px solid #4aa54e;
+	background		:	#fff;
+	width				:	44px;
+	height				:	24px;
+	display			:	inline-block; 
+}
+
+.s_class_button1_on
+{
+	color				:	#fff;
+	background		:	#4aa54e;
+
+}
+
+.s_class_button2
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px ; 
+	color				:	#ffa80a;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	1px solid #ffa80a;
+	background		:	#fff;
+	width				:	44px;
+	height				:	24px;
+	display			:	inline-block; 
+}
+
+.s_class_button2_on
+{
+	color				:	#fff;
+	background		:	#ffa80a;
+
+}
+
+.s_class_button3
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px ; 
+	color				:	#6499e0;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	1px solid #6499e0;
+	background		:	#fff;
+	width				:	44px;
+	height				:	24px;
+	display			:	inline-block; 
+}
+
+.s_class_button3_on
+{
+	color				:	#fff;
+	background		:	#6499e0;
+
+}
+
+.s_class_button4
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	12px ; 
+	color				:	#f26822;
+	font-weight		:	600;
+	text-align			:	center;
+	border				:	1px solid #f26822;
+	background		:	#fff;
+	width				:	44px;
+	height				:	24px;
+	display			:	inline-block; 
+}
+
+.s_class_button4_on
+{
+	color				:	#fff;
+	background		:	#6499e0;
+
+}
+
+
+
+.button2_1
+{
+	
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size		:	12px ; 
+	font-weight		:	600;
+	color			:	#535353 ;
+	line-height		:	24px;
+	background		:	#fff;
+	padding				: 0px 10px;
+	border			: 1px solid #535353
+}
+
+.button2_1_on
+{
+	color				:	#ee4d32;
+	border				:	1px solid #ee4d32;
+
+}
+
+.conn_t
+{
+	
+
+}
+
+.conn_t tbody th
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	14px ; 
+	color				:	#545454;
+	border-bottom	:	1px solid #dad8d3;
+	line-height		:	24px;	
+	font-weight		:	normal;
+	padding			:	10px 0px 10px 15px;
+	
+}
+.conn_t tbody td
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	13px ; 
+	color				:	#545454;
+	border-bottom	:	1px solid #dad8d3;
+	font-weight		:	normal;
+	line-height		:	18px;
+	padding			:	15px 0 15px 0px;
+}
+
+a.conn_t_btn
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	17px ; 
+	color				:	#fff;
+	line-height		:	99px;	
+	height				:	99px;
+	width				:	120px;
+	font-weight		:	normal;
+	text-align			:	center;
+	display			:	block;
+	background		:	#343434; 
+}
+.conn_t_line1
+{
+	background		:	url('../img/qna/conn_t_bu3_.jpg') right center no-repeat#f3f3f3;
+	
+}
+
+a.conn_t_btn
+{
+	font-family		:	'Malgun Gothic', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	17px ; 
+	color				:	#fff;
+	line-height		:	99px;	
+	height				:	99px;
+	width				:	120px;
+	font-weight		:	normal;
+	text-align			:	center;
+	display			:	block;
+	background		:	#343434; 
+}
+
+
+.cha_table_01
+{
+	border-top		:	2px solid #212031;
+	border-bottom	:	1px solid #212031;
+}
+
+
+.cha_table_01 tbody td
+{
+	font-family		:	'Noto Sans CJK SC', '맑은 고딕', 'AppleGothic', 'Sans-serif';
+	font-size			:	16px;
+	color				:	#282828;
+	padding			:	15px 0;
+}
