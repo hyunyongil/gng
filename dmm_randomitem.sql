@@ -1,0 +1,72 @@
+-- phpMyAdmin SQL Dump
+-- version 4.4.15.10
+-- https://www.phpmyadmin.net
+--
+-- Host: 172.16.1.103
+-- 생성 시간: 22-05-25 17:18
+-- 서버 버전: 10.4.18-MariaDB-log
+-- PHP 버전: 5.4.16
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- 데이터베이스: `domeme`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 테이블 구조 `dmm_randomitem`
+--
+
+CREATE TABLE IF NOT EXISTS `dmm_randomitem` (
+  `no` int(11) NOT NULL,
+  `addtime` varchar(255) NOT NULL COMMENT '생성일',
+  `itemImage` longtext DEFAULT NULL COMMENT '이미지주소',
+  `co_subject` varchar(100) DEFAULT NULL COMMENT '제목',
+  `status` varchar(100) DEFAULT NULL COMMENT '상태',
+  `co_content` longtext DEFAULT NULL COMMENT '내용',
+  `order_id` varchar(255) DEFAULT NULL COMMENT '순선정렬',
+  `co_related_item` text DEFAULT NULL COMMENT '복수상품번호'
+) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+
+--
+-- 테이블의 덤프 데이터 `dmm_randomitem`
+--
+
+INSERT INTO `dmm_randomitem` (`no`, `addtime`, `itemImage`, `co_subject`, `status`, `co_content`, `order_id`, `co_related_item`) VALUES
+(11, '1653265349', '{"T1":"/uploads/randomitem/1574324180_T1.jpg"}', '가전/휴대폰/산업', 'Y', NULL, '1', '21093603,22081760,19004146,19334827,21191829,21256237,22113136,21279344,20646957,22401594,22566638,21131335,22600778,22573223,23175290,22566650'),
+(12, '1653265386', '{"T1":"/uploads/randomitem/77863/1557278388/1557278388_T1.jpg"}', '의류/언더웨어', 'Y', NULL, '2', '20824350,20825642,20824352,20824329,16565704,15644936,15595086,20824349,20825627,20824729,20824314,22575849,20824322,22565781,22566666,22566585'),
+(13, '1653265768', '{"T1":"/uploads/randomitem/77863/1557278408/1557278408_T1.jpg"}', '패션/잡화', 'Y', NULL, '3', '15659193,19317226,20824452,19678554,16680910,20560019,20824454,22566647,22559592,22559347,22402067,22596017'),
+(14, '1653265462', '{"T1":"/uploads/randomitem/77863/1557278427/1557278427_T1.jpg"}', '가구/생활/취미', 'Y', NULL, '4', '16020380,20917896,20669547,18411227,19512048,20669554,22215414,21859324,21858054,15696123,22599746,17587567,22528517,22566468,22565025,22566575'),
+(15, '1653265493', '{"T1":"/uploads/randomitem/77863/1557278447/1557278447_T1.jpg"}', '스포츠/건강/식품', 'Y', NULL, '5', '18540391,20559912,21343920,21344253,22230629,22203433,22215523,22354240,22421177,22324312,22545968,22491088,22470389,23081007,22903563,22900682');
+
+--
+-- 덤프된 테이블의 인덱스
+--
+
+--
+-- 테이블의 인덱스 `dmm_randomitem`
+--
+ALTER TABLE `dmm_randomitem`
+  ADD PRIMARY KEY (`no`);
+
+--
+-- 덤프된 테이블의 AUTO_INCREMENT
+--
+
+--
+-- 테이블의 AUTO_INCREMENT `dmm_randomitem`
+--
+ALTER TABLE `dmm_randomitem`
+  MODIFY `no` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=17;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
