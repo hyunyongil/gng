@@ -102,8 +102,13 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::post('/register', 'Auth\ApiController@register');
-Route::post('/login', 'Auth\ApiController@login');
-Route::post('/refresh', 'Auth\ApiController@refresh');
-Route::post('/logout', 'Auth\ApiController@logout');
+// Route::post('/register', 'Auth\ApiController@register');
+// Route::post('/login', 'Auth\ApiController@login');
+// Route::post('/refresh', 'Auth\ApiController@refresh');
+// Route::post('/logout', 'Auth\ApiController@logout');
+// 20000
+
+// 20000
+
+// 80000
 
